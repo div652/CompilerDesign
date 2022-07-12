@@ -1,0 +1,11 @@
+program good2::
+    var A, B, C, D: int;
+    var E: bool;
+{
+    A := ((A * B) + ((C / D) % A));
+    B := (((A - B) - C) - D);
+    C := ((A * (B - C)) + ~(D));
+    E := ((A < B) > (C < D));
+    D := ((1 + 4) - ((D)));
+    E := (((A > B) < E) > tt);
+}

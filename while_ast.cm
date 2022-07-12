@@ -1,0 +1,21 @@
+Library
+structure while_ast  
+structure Mystruct 
+structure Vmc
+structure DataTypes
+
+
+is
+DataTypes.sml (* Contains all the datatypes*)
+while_ast.lex (* Lexer rules. *)
+while_ast.yacc:MLYacc (* Parser rules. *)
+while_ast.sml (* Build the parser *)
+compiler.sml (* Lex, parse, panic... *)
+ (* we’ll see all details of parse trees *)
+StackStructure.sml
+VMC.sml
+(* myfile.sml does new work *)
+$/basis.cm (* SML/NJ’s Basis Library. *)
+$/smlnj-lib.cm
+$/ml-yacc-lib.cm (* Code written by Lucent. *)
+$smlnj/compiler/compiler.cm (* Structure Compiler. *)

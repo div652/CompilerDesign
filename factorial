@@ -1,0 +1,9 @@
+program factorial::
+    var NUMBER, I , Answer: int;
+{ 
+    read NUMBER;
+    I:=0;
+    Answer:=1;
+    while (I<NUMBER) do {Answer:=(Answer*(I+1)); I:=I+1;} endwh ; 
+    write Answer;
+}
